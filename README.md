@@ -1,6 +1,6 @@
 
 
-### **`5. Reject`**
+### **`Reject`**
 >1. 기본적인 검수 진행은 진행되는 사항 중 중요한 정보들은 메일로 받아져 있을 것 입니다. 메일함을 우선 확인해 봅시다 😁<br />
 >2. 검수자에 따라 케바케로 검수결과가 달라질 수 있습니다. 항상 통과되던 앱이 이번에 왜 리젝된거지? 하고 당황하지 말고 리젝 내용을 확인해보세요.<br />
 >3. [App Store 심사 지침 가이드 라인](https://developer.apple.com/kr/app-store/review/guidelines/)은 계속 변합니다. 아래 내용도 시간이 지나면 달라질 수 있습니다.<br />
@@ -86,55 +86,3 @@
   ```
 - 애플의 계정 삭제 지침은 [앱에서 계정 삭제 기능 제공하기](https://developer.apple.com/kr/support/offering-account-deletion-in-your-app/)를 참고하세요.
 
-
-[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
-
-<br />
-<br />
-
-### **`6. 라이브러리 사용`**
-
-#### 라이브러리 사용을 하려면 어떻게 해야 되나요?
-- [Cocoapods](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md)를 추천드립니다. 
-	- [Cocoapods 사용 팁](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md) 링크입니다.
-	- 처음이라 어떻게 해야될 지 막막하시다면 [하울님의 코딩채널](https://www.youtube.com/playlist?list=PLmdU__e_zPf-uiDtI84Gv9SxFicrbw4KV)을 추천드립니다.
-- Carthage(카르타고) 라는 비슷한 방식도 있습니다. 워크스페이스를 만드는 방식이 아닌 Embbed Framework를 이용하는 방식이죠.
-
-#### 라이브러리들 모아놓은 좋은 블로그니 링크가 있나요?
-- [awesome-ios](https://github.com/vsouza/awesome-ios) : 저는 처음에 여기 링크를 보고 사용했었습니다. 
-- [MotionBook](https://github.com/younatics/MotionBook) 앱을 받아보셔도 좋고..
-- [cocoacontrols](https://www.cocoacontrols.com/) : 여기서 키워드 검색을 해보세요. 예를 들어 테이블 뷰의 헤더 커스텀이 필요하면 .. 'header'로 검색을 ~
-- 전 이정도로 찾아보거나 보통은 키워드로 구글 검색을 해봅니다. 당연히 커뮤니티나 지인에게 물어보기도 하구요~. 
-
-
-<br />
-
-[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
-
-<br />
-<br />
-
-### **`7. 디자인`**
-> 당연히 iOS 개발과 관련된 디자인 내용입니다.
-
-#### 안드로이드는 UI 개발 중 크기 선택은 dp로 작업하는 데 iOS에서는 dp를 지원하나요? 현업에서는 보통 디자이너에게 요구할때 어떻게 요구를 하나요?
-- iOS에서는 dp를 사용하지 않습니다. point라는 개념을 사용합니다. 
-- [제드님의 블러그 링크](https://zeddios.tistory.com/6)를 들어가 보세요. 제일 설명이 잘 되어있는 것 같습니다.
-- [제플린](https://zeplin.io/) 이라는 협업 툴로 개발을 많이 합니다. iOS용으로 제공받으면 편하게 개발 하실 수 있습니다.
-- 유지보수 관점에서 디자이너 분들과 협의하면 좋은 결과를 도출 할 수 있을 것입니다. 파이팅!
-
-#### 앱 디자인 툴로는 스케치가 대세인가요?
-
-- [스케치(sketch)](https://www.sketchapp.com/)를 많이 사용하는 것으로 알고 있습니다.
-- 스케치를 이용해서 디자인하고 디자인 가이드의 공유는 [제플린(zeplin)](https://zeplin.io/) 으로 하죠.
-- 요즘은 [Adobe XD](https://helpx.adobe.com/kr/xd/how-to/what-is-xd.html)로 넘어가는 추세라는 말도 들어봤습니다.
-- 어도비 엑스디의 장점으로 포토샵이나 일러에서 작업한 걸 스케치 같은 경우는 가져오기가 불편한 데, 엑스디는 복붙으로 가져올 수 있는 것 같습니다.
-- 애플에서 제공하는 리소스들도 엑스디가 지원한다 하구요.
-- 더불어 엑스디는 어도비와 같은? 단축키를 사용해서, 어도비의 단축키에 익숙하신 상태라면 러닝커브도 적을 것입니다. 
-- 검색해 주세요. 😁
-
-#### 1024 앱 아이콘 한번에 다 변환해주는 사이트 있나요?
-- https://appiconmaker.co
-- 맥용 앱 사용하시면 더 편할 수 있습니다.
-
-<br />
